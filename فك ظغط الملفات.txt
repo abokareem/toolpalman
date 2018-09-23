@@ -1,0 +1,107 @@
+https://github.com/novaws/masscan-parser    ‰ŸÌ› «·‰ «∆Ã „‰ «·„«” ”ﬂ«‰ ÊÃ⁄·Â« «Ï »Ï Ê»Ê—  Ê»«œ∆…
+git clone --depth 1 https://github.com/novaws/masscan-parser.git new
+python parser.py
+
+sudo apt-get install liblz4-tool
+lz4c -d  file.lz4         ›ﬂ «·Ÿ€ÿ 
+lz4c -c  file.lz4               Ÿ€ÿ «·„·›« 
+
+==============================
+
+https://scans.io
+
+========================
+ ‰ŸÌ› ÊÕœ› «·„ﬂ——
+http://textmechanic.com/text-tools/basic-text-tools/remove-duplicate-lines/
+
+http://www.toolsvoid.com/extract-ip-addresses
+http://www.ipvoid.com/ip-extractor/
+
+/tools/random-mac   Ê·Ìœ „«ﬂ« 
+http://textmechanic.com/text-tools/basic-text-tools/remove-duplicate-lines/   Õœ› «·„ﬂ——
+http://textmechanic.com/text-tools/basic-text-tools/remove-extra-spaces/           Õœ› «·›—«€«  »⁄œ «·”ÿ—
+http://textmechanic.com/text-tools/basic-text-tools/letter-case-converter/            ÕÊÌ· „‰ ﬂ» · ·Ì — «·Ï ”„Ê· ·Ì —
+================================
+‰ﬁ· „·›«  „‰ ”Ì—›— ·”Ì—›— ⁄»— «·‘·
+rsync -avzr -e "ssh -p 22" /root/macPOLYCOM.txt root@89.40.2.36:/root/cfg          Ìﬂ » ›Ï «·”Ì—›— «·„—«œ ‰ﬁ· «·„·›«  „‰Â
+
+===============================
+ ‰ŸÌ› «Ì»ÌÂ«  ÊœÊ„Ì‰«  ⁄»— «··Ì‰ﬂ”
+
+sudo apt-get install git --upgrade
+
+https://github.com/bwall/ExtractHosts
+git clone https://github.com/bwall/ExtractHosts.git
+cd ExtractHosts
+sudo python setup.py install
+
+
+eh path /root/ExtractHosts/country_US.json -4 --strict -d -r           «·«„— ··«Ì»ÌÂ«  «’œ«— 4
+
+eh path /root/ExtractHosts/prov.txt  -D  --strict -d             œÊ„Ì‰« 
+
+eh path /root/ExtractHosts/All.txt  -6 -f --strict -d                «’œ«— 6
+
+=============================================
+”ﬂ—» « 
+
+git clone --depth 1 https://github.com/lijiejie/BBScan.git db
+
+python BBScan.py -f ip.txt  --no-check404 -t10 -p40   --full --no-crawl  --no-scripts --network 24
+
+python BBScan.py --host http://www.navserver.pt  --no-check404 -t10 -p20   --full --no-crawl  --no-scripts
+
+python3 dirsearch.py -u http://109.68.97.139/polycom/ -e cfg -w /root/dir/phone-mac.txt  -x 301,500,503,403,401 -t 50 --plain-text-report=/root/dir/voip/109.68.97.139.txt
+
+==========================================
+”ﬂ—»  ‰Â«∆Ï ··⁄„·
+
+git clone --depth 1 https://github.com/zproxyz/AiohttpScanner  text
+
+«· ‘€Ì·
+Requirements
+
+Python >= 3.5.3
+sudo apt-get update
+sudo apt-get install python3
+sudo apt-cache show python3
+sudo apt-get install python3=3.5.1*
+python -V
+
+
+000000000000
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt-get install python3.5
+----------------------------------------------------
+aiohttp
+https://github.com/aio-libs/aiohttp/
+python3.5 -m pip install aiohttp
+python3.5 -m pip install cchardet
+python3.5 -m pip install aiodns
+
+pip install aiohttp
+pip install cchardet
+pip install aiodns
+----------------------------------------------------------
+async-timeout
+https://github.com/aio-libs/async-timeout
+
+pip install async-timeout
+python3.5 -m pip async-timeout
+
+00000000000000000000000000000000000000000000000000000000000000000000000000000
+python3.5 scanner.py
+python3  scanner.py
+«·«Ê«„—
+
+Configure settings in data/config/config.json
+timeout - request operations timeout (default 30)
+threads - count of threads (default 10)
+save_every_time - how often to save progress (default 100)
+refresh_connector_every_time - how often to refresh tcp connections (default 1000)
+time_waiting_while_refresh - how long to wait while connector refreshing (default 120 seconds)
+break_on_good - break scanning current site when finding a good result (default true)
+max_timeouts - maximum quantity of timeouts per site (default 5)
+user_agent - user-agent
+contentFind - text to be found on site

