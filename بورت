@@ -1,10 +1,10 @@
 https://opendata.rapid7.com/
 
-wget https://opendata.rapid7.com/sonar.http/2018-10-25-1540445123-http_get_5000.json.gz
+wget https://opendata.rapid7.com/sonar.http/2018-10-25-1540447135-http_get_5555.json.gz
 
-gzip -d 2018-10-25-1540445123-http_get_5000.json.gz
+gzip -d 2018-10-25-1540447135-http_get_5555.json.gz
 
-gzip -k 2018-10-25-1540445123-http_get_5000.json.gz
+gzip -k 2018-10-25-1540447135-http_get_5555.json.gz
 
 
 
