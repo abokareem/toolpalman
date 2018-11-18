@@ -16,3 +16,7 @@ https://www.lifewire.com/example-uses-of-the-linux-gzip-command-4078675
 
 sudo apt-get install python-pip python-dev build-essential
 sudo pip install --upgrade pip 
+
+
+
+https://support.censys.io/getting-started/what-does-censys-scan    scan
