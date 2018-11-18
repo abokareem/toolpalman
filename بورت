@@ -23,7 +23,7 @@ https://support.censys.io/getting-started/what-does-censys-scan    scan
 
 wget https://data-01.censys.io/9kfr8b7dm54zshom-80-http-get-full_ipv4-20181016T023001-zgrab-log.log.lz4
 
-wget https://data-01.censys.io/9kfr8b7dm54zshom-80-http-get-full_ipv4-20181016T023001-zgrab-log.log.lz4
+wget https://data-01.censys.io/apwyemdcoca74fzs-443-https-dhe-full_ipv4-20181014T023001-zmap-results.csv.lz4
 
 
 unlz4 -d 9kfr8b7dm54zshom-80-http-get-full_ipv4-20181016T023001-zgrab-log.log.lz4
