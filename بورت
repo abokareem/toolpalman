@@ -1,4 +1,6 @@
 https://opendata.rapid7.com/
+https://scans.io/
+
 
 wget https://opendata.rapid7.com/sonar.http/2018-10-25-1540447135-http_get_5555.json.gz
 
