@@ -1,7 +1,11 @@
 scp -c arcfour macPOLYCOM.txt root@172.81.180.143:22/root/dir/
 
 
-rsync -avzr -e "ssh -p 22" /root/dir/macPOLYCOM.txt root@172.81.180.143:/root            �����
+rsync -avzr -e "ssh -p 22" /root/dir/macPOLYCOM.txt root@172.81.180.143:/root            ããÊÇÒ
 
 rsync -avzr -e "ssh -p 22" /root/dir/macuser.txt root@172.81.180.143:/root
 macuser.txt
+
+
+
+rsync -avzr -e "ssh -p 22" /root/mx_mta-sts  root@سيرفر المستلم:/root
